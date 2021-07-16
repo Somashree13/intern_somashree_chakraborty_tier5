@@ -1,0 +1,480 @@
+<style type="text/css">
+
+html, body {
+height: 100%;
+}
+
+
+body {
+
+ margin: 0px;
+
+ padding: 0px;
+
+ background: #ededed;
+
+ font-family: 'Arial', sans-serif;
+
+ font-size: 13px;
+}
+
+
+h1, h2, h3 {
+ margin: 0;
+ padding: 0;
+}
+
+
+/** CONTAINER */
+
+.container
+ width: 1100px;
+ margin: 0px auto;
+}
+.clearfix{
+clear: both;
+}
+/** HEADER */
+
+
+#header-wrapper
+
+{
+
+ overflow: hidden;
+
+ background: #3b3b3b;
+
+}
+
+
+#header
+
+{
+
+ overflow: hidden;
+
+ height: 150px;
+
+}
+
+
+/** Logo */
+
+
+#logo
+
+{
+
+  float: left;
+
+  width: 400;
+
+}
+
+
+#logo h1 a
+
+{
+
+ display: block;
+
+ line-height: 150px;
+
+ text-decoration: none;
+
+ font-family: cursive;
+
+ font-size: 70px;
+
+ color: #FFFFFF;
+ 
+ padding: 0px 45px 0px 45px;
+
+}
+
+
+/** Menu */
+
+
+#menu
+
+{
+
+ float: right;
+
+ width: 700px;
+
+}
+
+
+#menu ul
+
+{
+
+ float: right;
+
+ margin: 0px;
+
+ padding: 60px 0px 0px 0px;
+
+ list-style: none;
+
+ line-height: normal;
+
+}
+
+
+#menu li
+
+{
+
+ float: left;
+
+ margin-left: 10px;
+
+}
+
+
+#menu a
+
+{
+
+ display: block;
+
+ padding: 10px 20px;
+
+ letter-spacing: 2px;
+
+ text-decoration: none;
+
+ text-transform: uppercase;
+ 
+ cursor: pointer;
+
+ font-family: 'Archivo Narrow', sans-serif;
+
+ font-size: 12px;
+
+ font-weight: 600;
+
+ color: #FFFFFF;
+
+}
+
+
+#menu .active a
+
+{
+
+ /*background: #00d9a9;*/
+
+ border-radius: 5px;
+
+ color: #FFFFFF;
+
+}
+
+
+ #menu .active a:hover
+
+ {
+
+ background-color: #00a987;
+
+ }
+
+ 
+
+ #menu .active a:active
+
+ {
+
+ background-color: #20e1b6;
+
+ }
+
+
+
+#menu a:hover
+
+{
+
+ text-decoration: none;
+
+}
+/** CONTENT */
+
+
+#featured-wrapper
+{
+	overflow: hidden;
+	padding: 50px 0px;
+	border-top: 1px solid #E7E7E7;
+	text-align: center;
+}
+
+#featured header
+{
+	display: block;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+/** BUTTON STYLING */
+
+.button
+{
+	display: inline-block;
+	margin: 0px 10px;
+	padding: 10px 30px;
+	background: #20e1b6;
+  font-size: 30px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #FFFFFF;
+  background-color: #20e1b6;
+  border: none;
+  border-radius: 15px;
+  
+}
+
+		.button:hover
+		{
+			background-color: #00ad87;
+			
+		}
+		
+		.button:active
+		{
+			background-color: #20e1b6;
+		}
+
+.button-alt
+{
+	background: #20e1b6;
+	
+}
+
+		.button-alt:hover
+		{
+			background-color: #00ad87;
+		}
+		
+		.button-alt:active
+		{
+			background-color:#20e1b6; 
+		}
+
+.button-small
+{
+	margin: 5px 0px;
+	box-shadow: none;
+	font-size: 15px;
+	color: #FFFFFF;
+}
+/** myPortfolio */
+
+
+#content header
+{
+	display: block;
+	margin-bottom: 1px;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+	padding: 0px 45px 0px 45px;
+}
+
+
+
+
+#two-column h3
+{
+	padding-bottom: 5px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#two-column p 
+{
+	text-align: left;
+}
+
+#two-column img
+{
+	float: left;
+	margin-right: 30px;
+	padding: 5px;
+	background: #FFFFFF;
+	opacity: 0.8;
+}
+
+#two-column  a:hover img
+{
+	opacity: 0.9;
+}
+
+
+
+#two-column .box-style
+{
+	overflow: hidden;
+	padding: 20px 20px;
+}
+
+#two-column #tbox1
+{
+	float: left;
+	width: 500px;
+	padding: 0px 45px 0px 45px;
+
+	
+}
+
+#two-column #tbox2
+{
+	float: right;
+	width: 500px;
+	padding: 0px 45px 0px 45px;
+	
+}
+
+/** Third Section */
+
+#banner-wrapper
+{
+	overflow: hidden;
+	padding: 35px 0px;
+	background: #20e1b6;
+	text-align: center;
+	width:100%;
+    color: #fff;
+}
+
+#banner p
+{
+	letter-spacing: -1px;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+#banner strong
+{
+	font-weight: 400;
+}
+
+
+
+#banner strong {
+
+ font-weight: 400;
+
+}
+/** FOOTER */
+
+#footer-wrapper
+
+{
+
+  overflow: hidden;
+
+padding: 35px 0px;
+
+background: #444444;
+
+border-top: 1px solid #404040;
+
+border-bottom: 1px solid #404040;
+
+}
+
+#footer
+
+{
+
+overflow: hidden;
+
+color: #B1B1B1;
+
+}
+
+#footer header
+
+{
+
+margin-bottom: 2px;
+
+font-size: 20px;
+
+font-weight: 400;
+
+color: #FFFFFF;
+
+}
+
+#footer #fbox1
+
+{
+
+float: left;
+
+width: 500px;
+
+padding: 0px 15px 0px 15px;
+
+}
+
+#footer #fbox2
+
+{
+
+float: right;
+
+width: 500px;
+
+padding: 0px 15px 0px 15px;
+
+}
+
+#footer a
+
+{
+
+color: #D0D0D0;
+
+}
+
+#footer .button-small
+
+{
+
+color: #FFFFFF;
+
+}
+
+#copyright
+
+{
+
+overflow: hidden;
+
+padding: 3px 0px 3px 0px;
+
+text-align: center;
+
+color: #606060;
+
+}
+
+#copyright a
+
+{
+
+color: #818181;
+
+}
+
